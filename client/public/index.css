@@ -1,0 +1,14 @@
+html {
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+body {
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  padding-top: 0px !important;
+}

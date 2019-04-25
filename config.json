@@ -1,0 +1,45 @@
+{
+  "prod": {
+    "hp": {
+      "url": "https://www.realtor.com",
+      "cookie": "split_tcv=100"
+    },
+    "srp": {
+      "url": "https://www.realtor.com/realestateandhomes-search/Seattle_WA",
+      "cookie": "splic_tcv=100"
+    },
+    "ldp": {
+      "url": "https://www.realtor.com/realestateandhomes-detail/1006-S-100th-St_Seattle_WA_98168_M21083-10627?view=qv",
+      "cookie": "splic_tcv=100"
+    }
+  },
+  "beta": {
+    "hp": {
+      "url": "https://beta.realtor.com",
+      "cookie": "split_tcv=100"
+    },
+    "srp": {
+      "url": "https://beta.realtor.com/realestateandhomes-search/Seattle_WA",
+      "cookie": "splic_tcv=100"
+    },
+    "ldp": {
+      "url": "https://beta.realtor.com/realestateandhomes-detail/1585-Newhall-St_Santa-Clara_CA_95050_M20742-86975?view=qv",
+      "cookie": "splic_tcv=100"
+    }
+  },
+  "betax": {
+    "hp": {
+      "url": "https://beta.x.realtor.com",
+      "cookie": "split_tcv=100"
+    },
+    "srp": {
+      "url": "https://beta.x.realtor.com/realestateandhomes-search/Seattle_WA",
+      "cookie": "splic_tcv=100"
+    },
+    "ldp": {
+      "url": "https://beta.x.realtor.com/realestateandhomes-detail/1006-S-100th-St_Seattle_WA_98168_M21083-10627?view=qv",
+      "cookie": "splic_tcv=100"
+    }
+  },
+  "AWSBucket": "way-accessibility"
+}

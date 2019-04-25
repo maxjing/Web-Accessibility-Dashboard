@@ -1,0 +1,27 @@
+{
+  "name": "lighthouse-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run start\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.384.0",
+    "body-parser": "^1.18.3",
+    "chrome-launcher": "^0.10.5",
+    "concurrently": "^4.1.0",
+    "execa": "^1.0.0",
+    "express": "^4.16.4",
+    "lighthouse": "^4.0.0-beta",
+    "lowdb": "^1.0.0",
+    "node-fetch": "^2.3.0"
+  }
+}
